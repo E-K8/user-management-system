@@ -1,0 +1,29 @@
+{
+  "name": "user-management-system",
+  "version": "1.0.0",
+  "description": "Most likely I'll follow an online tutorial and will try to customise it to some extent.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/E-K8/user-management-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/E-K8/user-management-system/issues"
+  },
+  "homepage": "https://github.com/E-K8/user-management-system#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
