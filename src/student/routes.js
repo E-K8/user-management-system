@@ -9,6 +9,8 @@ const router = express.Router();
 
 // instead of callback function above ^^^ we will use getStudents function ↓ (alt 25 for the down arrow btw)
 router.get("/", controller.getStudents);
+router.post("/", controller.addStudent);
+router.get("/:id",controller.getStudentById);
 
 
 export default router;

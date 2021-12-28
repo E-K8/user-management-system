@@ -3,6 +3,9 @@ import studentRoutes from "./src/student/routes.js";
 const app = express();
 const PORT = 3000;
 
+app.use(express.json());
+// ^^^ this will let us post and get json from our endpoints
+
 app.get("/", (req, res) =>{
     res.send("server responding, Woohoo!");
 })
