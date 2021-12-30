@@ -4,7 +4,7 @@ const pool = new pg.Pool({
   user: "postgres",
   host: "localhost",
   database: "students",
-  password: "postrespassword", // TODO change to your postreSQL password
+  password: "postgrespassword", // TODO change to your postgreSQL password
   port: 5432,
 });
 
